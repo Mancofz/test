@@ -1,0 +1,22 @@
+PODS:
+  - ETExtension (1.0.0):
+    - KissXML (= 5.1.2)
+  - KissXML (5.1.2):
+    - KissXML/Core (= 5.1.2)
+  - KissXML/Core (5.1.2)
+
+DEPENDENCIES:
+  - ETExtension (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ETExtension
+    - KissXML
+
+SPEC CHECKSUMS:
+  ETExtension: 1261975e03f0ae69c93170cfca1eb32e72ef1583
+  KissXML: 246c842586bb77110e04fb88e19376d96245c856
+
+PODFILE CHECKSUM: 3a3d2a4f82eb2a8f3b2fa0f10a2fba553971f6f1
+
+COCOAPODS: 1.5.2

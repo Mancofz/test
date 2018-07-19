@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0205F5A78CA8871FFFA10FF7EA89AF36 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5A859EF45B0FE27085620C12B6E43 /* DDXMLElement.m */; };
+		08AF5FE101CC1008DAFDF3E629A5E322 /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = CDECE0D5C0CE32BCCC9165918E632964 /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		290A60BAC4F1E8C266631FD1603CB1B6 /* DDXMLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F472A74E359A8F136A490E1AC824D8 /* DDXMLPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B2CD1816D491BB1DFEA82185EB54CC8 /* Pods-GitTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 746B6D55858DF96B8BD1063FB7FC91E2 /* Pods-GitTest-dummy.m */; };
+		30AEF00E40B1BA7B8EBF2E8865332035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		47CA7F5D0C7D1CAA85ACBA609928F3DE /* NSObject+ETKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 520AC2E4646314035C7F72E3FC4524FD /* NSObject+ETKeyValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AB7C0B7C1AEE0508F87C02525330330 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F399F2BE210800A44FF942C1447CE4D2 /* NSString+DDXML.m */; };
+		54996B5CBC29BC1AA9C70D71B19ACD80 /* KissXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 4440DC4165C9D9BA6A627BD6DE7F5C0C /* KissXML.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A9DA91AC0B3BCC1BF568C98642AEAB2 /* ETProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DC6133A1F51567265B52E879C2EF97 /* ETProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CF410D456E4CE01742C77B501FFD75D /* ETPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D98A4849FC4E3A745C7DC3D76764A2E /* ETPropertyType.m */; };
+		5E6CDCFB584AC9BE45B9AF557BDCC012 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 691E74F403A3DEC4912E7BC07A0EE219 /* DDXMLDocument.m */; };
+		620E6DF01534A22C5666F037C0AC3D61 /* ETExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB413852F0BC5FB63234996FBFCE71 /* ETExtension-dummy.m */; };
+		688772FBD6FE23F6E082770843259778 /* ETFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B2B3B5AE344830E123207D1FF0D930 /* ETFoundation.m */; };
+		7AD87C27C2528A05439D22046D1CA475 /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DA89EC2FB9A7ACA641BC7188321FF0 /* DDXMLElementAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DA55A4906DE32C0D4CF3AB5F8222664 /* ETProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9513AD0AE648500084FC33126F90CFB6 /* ETProperty.m */; };
+		85B0F934B77A5EC184457A7E75781508 /* ETPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 621132A6CA99BA0C56DF69044448BD0B /* ETPropertyType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E0AB5BFFD3F99CC397078C97709EB49 /* KissXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E941AAC4E47981844BDCB637DB3AC49 /* KissXML-dummy.m */; };
+		A83346750C8DAED3A7B0870D253815E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A95FFF7E4499073038949F2E9773AB85 /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = CCCAB67B5B4A0A47BBBB5CCDDA23A1C7 /* DDXML.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD80E970F796B8BBC4D21FED73B6E374 /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = E72D3ECCCA7D76DF8093A6DEB96FEBD6 /* DDXMLDocument.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B29A0515C462239A0E05842A924E5B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B55C419FECBFB7B8C39105A3ED31F38E /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = DE938D2125356AF111BF566AB9D69266 /* DDXMLElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6A9D35ECB9B5E96E4614B58C7CFE62C /* DDXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDB8CAC4658B70A30863BBF6D6260ED /* DDXMLNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BEC2324636902224A6DABC7FE59AF58B /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D794703A359D2C27F749F49C92A5AA /* DDXMLNode.m */; };
+		E3E9241567E14685B36916B8CF0C2ABC /* ETExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 38CCB82100EB151356C2F796507C0307 /* ETExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5C89A55BA345D62FBA4DDD8820E56AB /* ETFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3FC872CF874E997558534D9F7956FD /* ETFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB9B12B2A9AFC2A014086BFD6BE3E2FE /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 726F30E6A096745ACEC18594CBB1932B /* DDXMLElementAdditions.m */; };
+		EBF32E59DE8149DA7A7D88BA8819E6DA /* NSObject+ETKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 177805E5379F57A19253A4D992F90C19 /* NSObject+ETKeyValue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10B3CCBD468E760A11B7965780629352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1F47F34B24ED4429ABD8B7AE03874A;
+			remoteInfo = KissXML;
+		};
+		30D3C0E651C4BDBD288438BD6C3A7781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1F47F34B24ED4429ABD8B7AE03874A;
+			remoteInfo = KissXML;
+		};
+		B53F5F8C00E5B32D1BC0DE646223CFEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A77B15D6DD50BB511973CD66E337B7F;
+			remoteInfo = ETExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AEFBE5E6C8BB6C8EF4686B6D9679FB9 /* ETExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ETExtension-prefix.pch"; sourceTree = "<group>"; };
+		0F3FC872CF874E997558534D9F7956FD /* ETFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ETFoundation.h; path = ETExtensionExample/ETExtension/ETFoundation.h; sourceTree = "<group>"; };
+		10DC6133A1F51567265B52E879C2EF97 /* ETProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ETProperty.h; path = ETExtensionExample/ETExtension/ETProperty.h; sourceTree = "<group>"; };
+		11D794703A359D2C27F749F49C92A5AA /* DDXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = KissXML/DDXMLNode.m; sourceTree = "<group>"; };
+		177805E5379F57A19253A4D992F90C19 /* NSObject+ETKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ETKeyValue.m"; path = "ETExtensionExample/ETExtension/NSObject+ETKeyValue.m"; sourceTree = "<group>"; };
+		1E941AAC4E47981844BDCB637DB3AC49 /* KissXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KissXML-dummy.m"; sourceTree = "<group>"; };
+		2D258C657142A8B077F9E7913B80129D /* Pods-GitTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		38CCB82100EB151356C2F796507C0307 /* ETExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ETExtension.h; path = ETExtensionExample/ETExtension/ETExtension.h; sourceTree = "<group>"; };
+		42CB413852F0BC5FB63234996FBFCE71 /* ETExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ETExtension-dummy.m"; sourceTree = "<group>"; };
+		4440DC4165C9D9BA6A627BD6DE7F5C0C /* KissXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KissXML.h; path = KissXML/KissXML.h; sourceTree = "<group>"; };
+		4FC0E8704E014DEA6755EFC0F59A75B0 /* libKissXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKissXML.a; path = libKissXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9B8C40239AD75B7189674CDB5BD63 /* libPods-GitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GitTest.a"; path = "libPods-GitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520AC2E4646314035C7F72E3FC4524FD /* NSObject+ETKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ETKeyValue.h"; path = "ETExtensionExample/ETExtension/NSObject+ETKeyValue.h"; sourceTree = "<group>"; };
+		5A3A08BF5CBFF7F0D9B31C54A48FF66C /* ETExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ETExtension.xcconfig; sourceTree = "<group>"; };
+		621132A6CA99BA0C56DF69044448BD0B /* ETPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ETPropertyType.h; path = ETExtensionExample/ETExtension/ETPropertyType.h; sourceTree = "<group>"; };
+		6271AAC7EBD2455A27AAA408A32A0D96 /* Pods-GitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		691E74F403A3DEC4912E7BC07A0EE219 /* DDXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
+		6B2232F19E8F4E970C016C2BA5DEA0CF /* Pods-GitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitTest.release.xcconfig"; sourceTree = "<group>"; };
+		70304DC191DA4A22030C91BC97E03555 /* Pods-GitTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitTest-frameworks.sh"; sourceTree = "<group>"; };
+		726F30E6A096745ACEC18594CBB1932B /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		746B6D55858DF96B8BD1063FB7FC91E2 /* Pods-GitTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitTest-dummy.m"; sourceTree = "<group>"; };
+		7F867F78303EA10E3FDEA29BA255ABAF /* KissXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KissXML.xcconfig; sourceTree = "<group>"; };
+		89B2B3B5AE344830E123207D1FF0D930 /* ETFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ETFoundation.m; path = ETExtensionExample/ETExtension/ETFoundation.m; sourceTree = "<group>"; };
+		8CC5A859EF45B0FE27085620C12B6E43 /* DDXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = KissXML/DDXMLElement.m; sourceTree = "<group>"; };
+		8D98A4849FC4E3A745C7DC3D76764A2E /* ETPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ETPropertyType.m; path = ETExtensionExample/ETExtension/ETPropertyType.m; sourceTree = "<group>"; };
+		9242BA05627D43654D1FADBEB60042F8 /* libETExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libETExtension.a; path = libETExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DA89EC2FB9A7ACA641BC7188321FF0 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = KissXML/Additions/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9513AD0AE648500084FC33126F90CFB6 /* ETProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ETProperty.m; path = ETExtensionExample/ETExtension/ETProperty.m; sourceTree = "<group>"; };
+		A06190B6BE289A9488C8C5247D53BF22 /* KissXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-prefix.pch"; sourceTree = "<group>"; };
+		A273004E54A85C0B3AA8A2B093B61938 /* Pods-GitTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitTest-resources.sh"; sourceTree = "<group>"; };
+		BCDB8CAC4658B70A30863BBF6D6260ED /* DDXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		CCCAB67B5B4A0A47BBBB5CCDDA23A1C7 /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = KissXML/DDXML.h; sourceTree = "<group>"; };
+		CDECE0D5C0CE32BCCC9165918E632964 /* NSString+DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDXML.h"; path = "KissXML/Categories/NSString+DDXML.h"; sourceTree = "<group>"; };
+		DE938D2125356AF111BF566AB9D69266 /* DDXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = KissXML/DDXMLElement.h; sourceTree = "<group>"; };
+		E72D3ECCCA7D76DF8093A6DEB96FEBD6 /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
+		F23C8447E1BFB705F5F7BE087193036D /* Pods-GitTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F399F2BE210800A44FF942C1447CE4D2 /* NSString+DDXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDXML.m"; path = "KissXML/Categories/NSString+DDXML.m"; sourceTree = "<group>"; };
+		F4F472A74E359A8F136A490E1AC824D8 /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5464A34D4A57760C170A94D7D3265EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AEF00E40B1BA7B8EBF2E8865332035 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE4558D8E8438F8305047935BBCB152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83346750C8DAED3A7B0870D253815E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EF64929C8A1028D74A0CE1D266FC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29A0515C462239A0E05842A924E5B69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0717AE02DE698CAC5D820B2669B890E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A3A08BF5CBFF7F0D9B31C54A48FF66C /* ETExtension.xcconfig */,
+				42CB413852F0BC5FB63234996FBFCE71 /* ETExtension-dummy.m */,
+				0AEFBE5E6C8BB6C8EF4686B6D9679FB9 /* ETExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ETExtension";
+			sourceTree = "<group>";
+		};
+		0E9753D5380A4C4439D0C279BE6D440C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3183A6CAAA4B55254275A20F7EF27B0F /* Pods-GitTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3183A6CAAA4B55254275A20F7EF27B0F /* Pods-GitTest */ = {
+			isa = PBXGroup;
+			children = (
+				F23C8447E1BFB705F5F7BE087193036D /* Pods-GitTest-acknowledgements.markdown */,
+				2D258C657142A8B077F9E7913B80129D /* Pods-GitTest-acknowledgements.plist */,
+				746B6D55858DF96B8BD1063FB7FC91E2 /* Pods-GitTest-dummy.m */,
+				70304DC191DA4A22030C91BC97E03555 /* Pods-GitTest-frameworks.sh */,
+				A273004E54A85C0B3AA8A2B093B61938 /* Pods-GitTest-resources.sh */,
+				6271AAC7EBD2455A27AAA408A32A0D96 /* Pods-GitTest.debug.xcconfig */,
+				6B2232F19E8F4E970C016C2BA5DEA0CF /* Pods-GitTest.release.xcconfig */,
+			);
+			name = "Pods-GitTest";
+			path = "Target Support Files/Pods-GitTest";
+			sourceTree = "<group>";
+		};
+		3A5D536BE775C18F55150B29F7DB8E3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F867F78303EA10E3FDEA29BA255ABAF /* KissXML.xcconfig */,
+				1E941AAC4E47981844BDCB637DB3AC49 /* KissXML-dummy.m */,
+				A06190B6BE289A9488C8C5247D53BF22 /* KissXML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KissXML";
+			sourceTree = "<group>";
+		};
+		6291C6FFDD416DD3F952B31C54C3DB8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD21211C5B25B67AC884C927B0077FF6 /* ETExtension */,
+				D987553A01427430D387397D8B926438 /* KissXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6291C6FFDD416DD3F952B31C54C3DB8B /* Pods */,
+				FD513BC2B9184898335A63E2B9A1E36B /* Products */,
+				0E9753D5380A4C4439D0C279BE6D440C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABF78B75A0E2F2FBE2216621E39EEF7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CCCAB67B5B4A0A47BBBB5CCDDA23A1C7 /* DDXML.h */,
+				E72D3ECCCA7D76DF8093A6DEB96FEBD6 /* DDXMLDocument.h */,
+				691E74F403A3DEC4912E7BC07A0EE219 /* DDXMLDocument.m */,
+				DE938D2125356AF111BF566AB9D69266 /* DDXMLElement.h */,
+				8CC5A859EF45B0FE27085620C12B6E43 /* DDXMLElement.m */,
+				92DA89EC2FB9A7ACA641BC7188321FF0 /* DDXMLElementAdditions.h */,
+				726F30E6A096745ACEC18594CBB1932B /* DDXMLElementAdditions.m */,
+				BCDB8CAC4658B70A30863BBF6D6260ED /* DDXMLNode.h */,
+				11D794703A359D2C27F749F49C92A5AA /* DDXMLNode.m */,
+				F4F472A74E359A8F136A490E1AC824D8 /* DDXMLPrivate.h */,
+				4440DC4165C9D9BA6A627BD6DE7F5C0C /* KissXML.h */,
+				CDECE0D5C0CE32BCCC9165918E632964 /* NSString+DDXML.h */,
+				F399F2BE210800A44FF942C1447CE4D2 /* NSString+DDXML.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D987553A01427430D387397D8B926438 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				CABF78B75A0E2F2FBE2216621E39EEF7 /* Core */,
+				3A5D536BE775C18F55150B29F7DB8E3E /* Support Files */,
+			);
+			name = KissXML;
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		FD21211C5B25B67AC884C927B0077FF6 /* ETExtension */ = {
+			isa = PBXGroup;
+			children = (
+				38CCB82100EB151356C2F796507C0307 /* ETExtension.h */,
+				0F3FC872CF874E997558534D9F7956FD /* ETFoundation.h */,
+				89B2B3B5AE344830E123207D1FF0D930 /* ETFoundation.m */,
+				10DC6133A1F51567265B52E879C2EF97 /* ETProperty.h */,
+				9513AD0AE648500084FC33126F90CFB6 /* ETProperty.m */,
+				621132A6CA99BA0C56DF69044448BD0B /* ETPropertyType.h */,
+				8D98A4849FC4E3A745C7DC3D76764A2E /* ETPropertyType.m */,
+				520AC2E4646314035C7F72E3FC4524FD /* NSObject+ETKeyValue.h */,
+				177805E5379F57A19253A4D992F90C19 /* NSObject+ETKeyValue.m */,
+				0717AE02DE698CAC5D820B2669B890E3 /* Support Files */,
+			);
+			name = ETExtension;
+			path = ETExtension;
+			sourceTree = "<group>";
+		};
+		FD513BC2B9184898335A63E2B9A1E36B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9242BA05627D43654D1FADBEB60042F8 /* libETExtension.a */,
+				4FC0E8704E014DEA6755EFC0F59A75B0 /* libKissXML.a */,
+				4FD9B8C40239AD75B7189674CDB5BD63 /* libPods-GitTest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9A172751DC31D200F671AA42E1D93824 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95FFF7E4499073038949F2E9773AB85 /* DDXML.h in Headers */,
+				AD80E970F796B8BBC4D21FED73B6E374 /* DDXMLDocument.h in Headers */,
+				B55C419FECBFB7B8C39105A3ED31F38E /* DDXMLElement.h in Headers */,
+				7AD87C27C2528A05439D22046D1CA475 /* DDXMLElementAdditions.h in Headers */,
+				B6A9D35ECB9B5E96E4614B58C7CFE62C /* DDXMLNode.h in Headers */,
+				290A60BAC4F1E8C266631FD1603CB1B6 /* DDXMLPrivate.h in Headers */,
+				54996B5CBC29BC1AA9C70D71B19ACD80 /* KissXML.h in Headers */,
+				08AF5FE101CC1008DAFDF3E629A5E322 /* NSString+DDXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC5C1A65494675CDD826D5B28A0BF0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E9241567E14685B36916B8CF0C2ABC /* ETExtension.h in Headers */,
+				E5C89A55BA345D62FBA4DDD8820E56AB /* ETFoundation.h in Headers */,
+				5A9DA91AC0B3BCC1BF568C98642AEAB2 /* ETProperty.h in Headers */,
+				85B0F934B77A5EC184457A7E75781508 /* ETPropertyType.h in Headers */,
+				47CA7F5D0C7D1CAA85ACBA609928F3DE /* NSObject+ETKeyValue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A77B15D6DD50BB511973CD66E337B7F /* ETExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF246707EA380E63214CEA2BEFB7AED /* Build configuration list for PBXNativeTarget "ETExtension" */;
+			buildPhases = (
+				6D0915558B42C939639C93262225EFA2 /* Sources */,
+				5464A34D4A57760C170A94D7D3265EDB /* Frameworks */,
+				ECC5C1A65494675CDD826D5B28A0BF0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3B5762E8D98E6C8F4FF71441F22CFA /* PBXTargetDependency */,
+			);
+			name = ETExtension;
+			productName = ETExtension;
+			productReference = 9242BA05627D43654D1FADBEB60042F8 /* libETExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9612B6917E949F5C1CCF3332B0E5EB4A /* Pods-GitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B1CD7D1748F97109ACF7C457003E2E /* Build configuration list for PBXNativeTarget "Pods-GitTest" */;
+			buildPhases = (
+				DCE99368B56F3E367FA37117375CC730 /* Sources */,
+				ADE4558D8E8438F8305047935BBCB152 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5E2BDF904221A81777D97FC4610154D /* PBXTargetDependency */,
+				09E7173EB73F123E1CFD748F8F7A3F84 /* PBXTargetDependency */,
+			);
+			name = "Pods-GitTest";
+			productName = "Pods-GitTest";
+			productReference = 4FD9B8C40239AD75B7189674CDB5BD63 /* libPods-GitTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CE1F47F34B24ED4429ABD8B7AE03874A /* KissXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267B1B106D3F5784130DFC4B9433C983 /* Build configuration list for PBXNativeTarget "KissXML" */;
+			buildPhases = (
+				2883543EBF51E8262500952E9CD7AF3C /* Sources */,
+				F9EF64929C8A1028D74A0CE1D266FC8C /* Frameworks */,
+				9A172751DC31D200F671AA42E1D93824 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KissXML;
+			productName = KissXML;
+			productReference = 4FC0E8704E014DEA6755EFC0F59A75B0 /* libKissXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FD513BC2B9184898335A63E2B9A1E36B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A77B15D6DD50BB511973CD66E337B7F /* ETExtension */,
+				CE1F47F34B24ED4429ABD8B7AE03874A /* KissXML */,
+				9612B6917E949F5C1CCF3332B0E5EB4A /* Pods-GitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2883543EBF51E8262500952E9CD7AF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6CDCFB584AC9BE45B9AF557BDCC012 /* DDXMLDocument.m in Sources */,
+				0205F5A78CA8871FFFA10FF7EA89AF36 /* DDXMLElement.m in Sources */,
+				EB9B12B2A9AFC2A014086BFD6BE3E2FE /* DDXMLElementAdditions.m in Sources */,
+				BEC2324636902224A6DABC7FE59AF58B /* DDXMLNode.m in Sources */,
+				9E0AB5BFFD3F99CC397078C97709EB49 /* KissXML-dummy.m in Sources */,
+				4AB7C0B7C1AEE0508F87C02525330330 /* NSString+DDXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0915558B42C939639C93262225EFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620E6DF01534A22C5666F037C0AC3D61 /* ETExtension-dummy.m in Sources */,
+				688772FBD6FE23F6E082770843259778 /* ETFoundation.m in Sources */,
+				7DA55A4906DE32C0D4CF3AB5F8222664 /* ETProperty.m in Sources */,
+				5CF410D456E4CE01742C77B501FFD75D /* ETPropertyType.m in Sources */,
+				EBF32E59DE8149DA7A7D88BA8819E6DA /* NSObject+ETKeyValue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE99368B56F3E367FA37117375CC730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2CD1816D491BB1DFEA82185EB54CC8 /* Pods-GitTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09E7173EB73F123E1CFD748F8F7A3F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KissXML;
+			target = CE1F47F34B24ED4429ABD8B7AE03874A /* KissXML */;
+			targetProxy = 30D3C0E651C4BDBD288438BD6C3A7781 /* PBXContainerItemProxy */;
+		};
+		C5E2BDF904221A81777D97FC4610154D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ETExtension;
+			target = 6A77B15D6DD50BB511973CD66E337B7F /* ETExtension */;
+			targetProxy = B53F5F8C00E5B32D1BC0DE646223CFEA /* PBXContainerItemProxy */;
+		};
+		EC3B5762E8D98E6C8F4FF71441F22CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KissXML;
+			target = CE1F47F34B24ED4429ABD8B7AE03874A /* KissXML */;
+			targetProxy = 10B3CCBD468E760A11B7965780629352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01CDE26C280DDEF550F4AD75159FB298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3A08BF5CBFF7F0D9B31C54A48FF66C /* ETExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ETExtension/ETExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ETExtension;
+				PRODUCT_NAME = ETExtension;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C49F6CA4D2EB1CF5514797A8747A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3A08BF5CBFF7F0D9B31C54A48FF66C /* ETExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ETExtension/ETExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ETExtension;
+				PRODUCT_NAME = ETExtension;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		328DC317D71B0BB9E62A03DF08B0DDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F867F78303EA10E3FDEA29BA255ABAF /* KissXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML/KissXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35AF3B4682E9C1B54027A8461A62034B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2232F19E8F4E970C016C2BA5DEA0CF /* Pods-GitTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A5DE6AED9E66DF0010BC8FCC251B7063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6271AAC7EBD2455A27AAA408A32A0D96 /* Pods-GitTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4EDEBA6C67CB357F2C96A108A9DEAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F867F78303EA10E3FDEA29BA255ABAF /* KissXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML/KissXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267B1B106D3F5784130DFC4B9433C983 /* Build configuration list for PBXNativeTarget "KissXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328DC317D71B0BB9E62A03DF08B0DDED /* Debug */,
+				F4EDEBA6C67CB357F2C96A108A9DEAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B1CD7D1748F97109ACF7C457003E2E /* Build configuration list for PBXNativeTarget "Pods-GitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DE6AED9E66DF0010BC8FCC251B7063 /* Debug */,
+				35AF3B4682E9C1B54027A8461A62034B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF246707EA380E63214CEA2BEFB7AED /* Build configuration list for PBXNativeTarget "ETExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C49F6CA4D2EB1CF5514797A8747A52 /* Debug */,
+				01CDE26C280DDEF550F4AD75159FB298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
